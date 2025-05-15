@@ -1,0 +1,75 @@
+# 💰 Budget vs Actual Dashboard – Excel
+
+This project demonstrates how an FP&A team at **Edunova Learning Group** tracks and analyzes financial performance using a **Budget vs Actual Dashboard** built in Microsoft Excel.
+
+---
+
+## 🧾 Project Description
+
+This dashboard compares budgeted figures to actual expenditures across departments and categories. It provides variance analysis to help identify overspending or underspending areas, and monthly trend insights to aid financial planning.
+
+---
+
+## 📊 Dashboard Highlights
+
+- Pivot Table summarizing budget and actuals by department and category  
+- Calculated variance column (Actual - Budget)  
+- Conditional formatting for quick red/green variance insights  
+- Bar Chart comparing Budget vs Actual  
+- Monthly line chart for trend analysis  
+
+---
+
+## 🛠️ How to Build This Dashboard (Step-by-Step)
+
+### Step 1: Open the Excel File  
+Open the provided file: `Budget_vs_Actual.xlsx`.
+
+### Step 2: Create a Dashboard Sheet  
+Create a new worksheet named `Dashboard`.
+
+### Step 3: Build a Summary Table  
+Include the following columns:
+- Department - Category
+- Total Budget
+- Total Actual
+- Variance = Actual - Budget
+
+### Step 4: Create Pivot Table  
+Insert a Pivot Table from your data:
+- Place **Department** and **Category** in Rows
+- Place **Budget** and **Actual** in Values
+
+### Step 5: Add Variance Calculation  
+In your summary table (outside Pivot), add a column:  
+`= Actual - Budget`
+
+### Step 6: Apply Conditional Formatting  
+Use Excel conditional formatting on the Variance column:
+- Red fill: if variance > 0 (over budget)
+- Green fill: if variance ≤ 0 (within or under budget)
+
+### Step 7: Insert a Bar Chart  
+- Highlight the summary table  
+- Insert ➜ Charts ➜ Clustered Bar Chart  
+- X-axis: Department - Category  
+- Series: Budget and Actual
+
+### Step 8: Add a Monthly Trend Line Chart  
+- Create another Pivot Table (or manual summary) grouped by Month  
+- Insert ➜ Line Chart showing Budget vs Actual monthly trends
+
+---
+
+## 📁 Files Included
+- `Budget_vs_Actual.xlsx` – Raw data + Dashboard
+- `README.md` – Project documentation
+
+---
+
+## ✅ Skills Showcased
+- Pivot Tables  
+- Excel formulas  
+- Conditional formatting  
+- Chart building & layout  
+- Financial variance analysis  
