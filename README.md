@@ -21,9 +21,9 @@ Their core revenue streams include:
 
 ---
 
-## 🧠 Your Role: FP&A Analyst
+## 🧠 My Role: FP&A Analyst
 
-As an FP&A Analyst, **Shweta Bhanot** supports senior leadership and departmental managers with data-driven financial insights. Your reports help:
+As an FP&A Analyst, I support senior leadership and departmental managers with data-driven financial insights. My reports help:
 - Monitor variances in actual vs budgeted spend
 - Forecast revenue from student enrollments
 - Track performance by cost centre and department
